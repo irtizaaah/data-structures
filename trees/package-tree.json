@@ -1,0 +1,13 @@
+{
+    "name": "tree",
+    "version": "1.0.0",
+    "description": "tree",
+    "main": "tree.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "irtiza k.",
+    "license": "ISC",
+    "type": "module"
+  }
+  
