@@ -31,6 +31,7 @@ list4.push(40);
 console.log(list4.pop());
 list4.peek();
 list4.print();
+console.log(list4.getSize);
 
 let list5 = new Queue([0,1,2]);
 list5.enqueue(30);
@@ -38,3 +39,5 @@ list5.enqueue(40);
 console.log(list5.dequeue());
 list5.peek();
 list5.print();
+console.log(list5.getSize);
+
