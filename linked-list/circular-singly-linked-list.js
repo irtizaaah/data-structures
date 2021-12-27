@@ -1,6 +1,6 @@
 import {SinglyLinkedList} from "./singly-linked-list.js"
 
-export class CircularLinkedList extends SinglyLinkedList{
+export class CircularSinglyLinkedList extends SinglyLinkedList{
     constructor(list){
         super(list);
     }
