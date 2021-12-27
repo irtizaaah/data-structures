@@ -1,10 +1,10 @@
 export class Stack{
     constructor(list){
         this.list = [];
-        for(let i = 0; i < list.length; i++){ //fill up stack
+        for(let i = 0; i < list.length; i++){ // fill up stack
             this.push(list[i]);
         }
-        this.top = this.list.length - 1; //the top points to the last element on the list
+        this.top = this.list.length - 1; // the top points to the last element on the list
     }
 
     get getSize(){

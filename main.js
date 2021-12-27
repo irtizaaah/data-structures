@@ -1,6 +1,6 @@
-import {SinglyLinkedList} from "./linked-list/singly-linked-list.js"
-import {DoublyLinkedList} from "./linked-list/doubly-linked-list.js"
-import {CircularSinglyLinkedList} from "./linked-list/circular-singly-linked-list.js"
+import {SinglyLinkedList} from "./linked-lists/singly-linked-list.js"
+import {DoublyLinkedList} from "./linked-lists/doubly-linked-list.js.js"
+import {CircularSinglyLinkedList} from "./linked-lists/circular-singly-linked-list.js.js"
 import {Stack} from "./abstract-data-types/stack.js"
 import {Queue} from "./abstract-data-types/queue.js"
 
