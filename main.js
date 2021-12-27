@@ -45,6 +45,6 @@ console.log(list5.getSize);
 let list6 = new HashTable(10);
 list6.insert("Hi");
 list6.insert("Hey");
-list6.insert("Hello");gi
+list6.insert("Hello");
 console.log(list6.search("Hi"));
 list6.print();
