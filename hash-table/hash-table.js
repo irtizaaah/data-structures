@@ -14,7 +14,7 @@ export class HashTable{
         return this.size;
     }
 
-    _traverseNodes(index, targetNode = null){ // return node before node with target value
+    _traverseNodes(index, targetNode = null){ // return node before target node
         let currentNode = this.table[index];
 
         while(currentNode.getNext !== targetNode){ // iterates to the last node
