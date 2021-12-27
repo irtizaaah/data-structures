@@ -21,11 +21,11 @@ export class Queue{
     }
 
     peek(){
-        return this.list[front];
+        return this.list[this.front];
     }
 
     print(){
-        let printedList = "Front [";
+        let printedList = "Front->[";
         
         for(let i = 0; i < this.list.length; i++){
             printedList = printedList + this.list[i];
@@ -35,7 +35,7 @@ export class Queue{
             }
         }
 
-        printedList = printedList + "] Rear";
+        printedList = printedList + "]<-Rear";
         console.log(printedList);
     }
 }

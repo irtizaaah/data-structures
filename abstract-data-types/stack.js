@@ -24,7 +24,7 @@ export class Stack{
     }
 
     print(){
-        let printedList = "Top [";
+        let printedList = "Top->[";
         
         for(let i = this.list.length-1; i > 0; i--){
             printedList = printedList + this.list[i];
@@ -38,10 +38,3 @@ export class Stack{
         console.log(printedList);
     }
 }
-
-let list = new Stack([0,1,2,3]);
-list.push(99);
-list.push(100);
-console.log(list.pop());
-list.peek();
-list.print();
