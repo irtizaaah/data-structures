@@ -1,0 +1,13 @@
+{
+    "name": "hash-table",
+    "version": "1.0.0",
+    "description": "hash table",
+    "main": "hash-table.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "irtiza k.",
+    "license": "ISC",
+    "type": "module"
+  }
+  

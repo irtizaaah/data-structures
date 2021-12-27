@@ -1,8 +1,9 @@
 import {SinglyLinkedList} from "./linked-lists/singly-linked-list.js"
-import {DoublyLinkedList} from "./linked-lists/doubly-linked-list.js.js"
-import {CircularSinglyLinkedList} from "./linked-lists/circular-singly-linked-list.js.js"
+import {DoublyLinkedList} from "./linked-lists/doubly-linked-list.js"
+import {CircularSinglyLinkedList} from "./linked-lists/circular-singly-linked-list.js"
 import {Stack} from "./abstract-data-types/stack.js"
 import {Queue} from "./abstract-data-types/queue.js"
+import {HashTable} from "./hash-table/hash-table.js"
 
 let list1 = new CircularSinglyLinkedList([0,1,2]);
 list1.append(30);
@@ -41,3 +42,9 @@ list5.peek();
 list5.print();
 console.log(list5.getSize);
 
+let list6 = new HashTable(10);
+list6.insert("Hi");
+list6.insert("Hey");
+list6.insert("Hello");gi
+console.log(list6.search("Hi"));
+list6.print();

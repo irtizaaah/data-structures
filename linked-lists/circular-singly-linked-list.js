@@ -44,14 +44,14 @@ export class CircularSinglyLinkedList extends SinglyLinkedList{
 
     print(){
         let currentNode = this.head;
-        let printedList = "...head->";
+        let printedList = "..." + this.head.getValue + "->";
         
         while(currentNode.getNext !== this.tail){
             currentNode = currentNode.getNext;
             printedList = printedList + currentNode.getValue + "->";
         }
 
-        printedList = printedList + "tail->head...";
+        printedList = printedList + this.tail.getValue + "->" + this.head.getValue +  "...";
         console.log(printedList);
     }
 }

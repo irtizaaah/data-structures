@@ -6,7 +6,7 @@ export class DoublyLinkedList extends SinglyLinkedList{
     }
 
     _createDefaultNodes(){
-        this.head = this._createNewNode(this.head); // this is a dummy head (doesn't store a value)
+        this.head = this._createNewNode('head'); // this is a dummy head (doesn't store a value)
         this.tail = null; // No tail is being used
 
     }
@@ -18,7 +18,7 @@ export class DoublyLinkedList extends SinglyLinkedList{
 
     print(){
         let currentNode = this.head;
-        let printedList = "head->";
+        let printedList = this.head.getValue + "->";
         
         while(currentNode.getNext !== null){
             currentNode = currentNode.getNext;
@@ -31,7 +31,7 @@ export class DoublyLinkedList extends SinglyLinkedList{
             }
         }
 
-        printedList = printedList + "null";
+        printedList = printedList + currentNode.getNext;
         console.log(printedList);
     }
 }

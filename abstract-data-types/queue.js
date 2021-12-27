@@ -1,8 +1,11 @@
 export class Queue{
     constructor(list){
         this.list = [];
-        for(let i = 0; i < list.length-1; i++){ // fill up queue
-            this.enqueue(list[i]);
+
+        if(list !== null){
+            for(let i = 0; i < list.length-1; i++){ // fill up queue
+                this.enqueue(list[i]);
+            }
         }
         this.front = 0; // the front points to the first element of the list
         this.rear = this.list.length - 1; // the rear points to the last element of the list
