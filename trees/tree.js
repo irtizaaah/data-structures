@@ -6,6 +6,10 @@ export class Tree{
         this.height = 0;
     }
 
+    get getRoot(){
+        return this.root;
+    }
+
     get getHeight(){
         return this.height;
     }

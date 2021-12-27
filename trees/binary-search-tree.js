@@ -16,6 +16,22 @@ export class BinarySearchTree extends Tree{
     _traversesNode(newNode, currentNode){
     }
 
+    get isFull(){
+        
+    }
+
+    get isBalanced(){
+        
+    }
+
+    get isCompleted(){
+        
+    }
+
+    get isPerfect(){
+        
+    }
+
     insert(value){
 
     remove(value){
@@ -33,6 +49,6 @@ export class BinarySearchTree extends Tree{
     printPostOrder(){
     }
 
-    properties(){
+    getProperties(){
     }
 }
