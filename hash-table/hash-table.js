@@ -10,6 +10,10 @@ export class HashTable{
         }
     }
 
+    get getSize(){
+        return this.size;
+    }
+
     _traverseNodes(index, targetNode = null){ // return node before node with target value
         let currentNode = this.table[index];
 
