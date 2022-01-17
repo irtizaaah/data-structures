@@ -4,7 +4,7 @@ Data structures in JavaScript.<br>
 # Stack
 ## Initialization
 ```javascript
-  let list = Stack([0,1,2]);
+  let list = new Stack([0,1,2]);
 ```
 ## Operations
 | Method    | Description      |
@@ -18,7 +18,7 @@ Data structures in JavaScript.<br>
 # Queue
 ## Initialization
 ```javascript
-  let list = Queue([0,1,2]);
+  let list = new Queue([0,1,2]);
 ```
 ## Operations
 | Method    | Description      |
@@ -33,7 +33,7 @@ Data structures in JavaScript.<br>
 ## Initialization
 ```javascript
   let size = 3;
-  let list = HashTable(size);
+  let list = new HashTable(size);
 ```
 ## Operations
 | Method    | Description      |
@@ -51,9 +51,9 @@ Data structures in JavaScript.<br>
 * Circular Singly Linked List
 ## Initialization
 ```javascript
-  let list = SinglyLinkedList([0,1,2]);
-  let list = DoublyLinkedList([0,1,2]);
-  let list = CircularSinglyLinkedList([0,1,2]);
+  let list = new SinglyLinkedList([0,1,2]);
+  let list = new DoublyLinkedList([0,1,2]);
+  let list = new CircularSinglyLinkedList([0,1,2]);
 ```
 ## Operations
 | Method    | Description      |
@@ -71,7 +71,7 @@ Data structures in JavaScript.<br>
 * Binary Search Tree
 ## Initialization
 ```javascript
-  let list = BinarySearchTree();
+  let list = new BinarySearchTree();
 ```
 ## Operations
 | Method    | Description      |
