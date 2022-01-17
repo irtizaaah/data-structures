@@ -29,6 +29,7 @@ A Data Structures in JavaScript.<br>
 | **.print()**   | Prints entire list |
 | **.getSize**   | Returns size of entire list|
 
+# Hashtable
 ## Initialization
 ```javascript
   let size = 3;
@@ -43,6 +44,7 @@ A Data Structures in JavaScript.<br>
 | **.print()**   | Prints the entire hash table |
 | **.getSize()**   | Gets the size|
 
+# Linked List
 ## Types
 * Singly Linked List
 * Doubly Linked List
