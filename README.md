@@ -64,3 +64,25 @@ A Data Structures in JavaScript.<br>
 | **.peek(index)**   | Shows value at _index_ |
 | **.print()**   | Prints entire list |
 | **.getSize**   | Returns size of the entire list|
+
+## Types
+* Binary Search Tree
+## Initialization
+```javascript
+  let list = BinarySearchTree();
+```
+## Operations
+| Method    | Description      |
+| -------- | --------------|
+| **.insert(value)**   | Inserts _value_ to tree |
+| **.remove(value)**   | Removes _value_ from tree |
+| **.search(value)**   | Searches _value_ in tree |
+| **.printPreOrder()**   | Print values pre-ordered |
+| **.printInOrder()**   | Print values in-ordered |
+| **.printPostOrder()**   | Print values post-ordered |
+| **.isFull**   | Returns _true_ if tree is a full binary tree |
+| **.isComplete**   | Returns _true_ if tree is a completed binary tree |
+| **.isPerfect**   | Returns _true_ if tree is a perfect binary tree |
+| **.isBalanced**   | Returns _true_ if tree is a balanced binary tree |
+|**.getHeight()**   | Returns height of tree |
+|**.getRoot()**   | Returns root of tree |
