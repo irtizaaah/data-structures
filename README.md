@@ -64,12 +64,14 @@ A Data Structures in JavaScript.<br>
 | **.peek(index)**   | Shows value at _index_ |
 | **.print()**   | Prints entire list |
 | **.getSize**   | Returns size of the entire list|
-
+```
+# Binary Search Tree
 ## Types
 * Binary Search Tree
 ## Initialization
 ```javascript
   let list = BinarySearchTree();
+```
 ```
 ## Operations
 | Method    | Description      |
@@ -86,3 +88,4 @@ A Data Structures in JavaScript.<br>
 | **.isBalanced**   | Returns _true_ if tree is a balanced binary tree |
 |**.getHeight()**   | Returns height of tree |
 |**.getRoot()**   | Returns root of tree |
+```
