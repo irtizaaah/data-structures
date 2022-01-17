@@ -42,3 +42,23 @@ A Data Structures in JavaScript.<br>
 | **.search(value)**   | Searches _value_ |
 | **.print()**   | Prints the entire hash table |
 | **.getSize()**   | Gets the size|
+
+## Types
+* Singly Linked List
+* Doubly Linked List
+* Circular Singly Linked List
+## Initialization
+```javascript
+  let list = SinglyLinkedList([0,1,2]);
+  let list = DoublyLinkedList([0,1,2]);
+  let list = CircularSinglyLinkedList([0,1,2]);
+```
+## Operations
+| Method    | Description      |
+| -------- | --------------|
+| **.append(value)**   | Inserts _value_ to back of list |
+| **.remove(value)**   | Removes _value_ from list |
+| **.insert(value, value2)**   | Inserts _value_ in front of _value2_ |
+| **.peek(index)**   | Shows value at _index_ |
+| **.print()**   | Prints entire list |
+| **.getSize**   | Returns size of the entire list|
