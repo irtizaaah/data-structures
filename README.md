@@ -1,5 +1,5 @@
 # Data Structures
-A Data Structures in JavaScript.<br>
+Data structures in JavaScript.<br>
 
 # Stack
 ## Initialization
