@@ -28,3 +28,17 @@ A Data Structures in JavaScript.<br>
 | **.peek(index)**   | Shows value at front _index_ |
 | **.print()**   | Prints entire list |
 | **.getSize**   | Returns size of entire list|
+
+## Initialization
+```javascript
+  let size = 3;
+  let list = HashTable(size);
+```
+## Operations
+| Method    | Description      |
+| -------- | --------------|
+| **.insert(value)**   | Inserts _value_ |
+| **.remove(value)**   | Removes _value_ |
+| **.search(value)**   | Searches _value_ |
+| **.print()**   | Prints the entire hash table |
+| **.getSize()**   | Gets the size|
