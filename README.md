@@ -1,12 +1,17 @@
-# Data Structures
-Data structures in JavaScript.<br>
+<br />
+<div align="center">
+  <h3 align="center">Data Structures</h3>
+  <p align="center">
+    Data Structures built in JavaScript
+  </p>
+</div>
 
 # Stack
-## Initialization
+### Initialization
 ```javascript
   let list = new Stack([0,1,2]);
 ```
-## Operations
+### Operations
 | Method    | Description      |
 | -------- | --------------|
 | **.push(value)**   | Inserts _value_ to top of list |
@@ -16,11 +21,11 @@ Data structures in JavaScript.<br>
 | **.getSize**   | Returns size of entire list|
 
 # Queue
-## Initialization
+### Initialization
 ```javascript
   let list = new Queue([0,1,2]);
 ```
-## Operations
+### Operations
 | Method    | Description      |
 | -------- | --------------|
 | **.enqueue(value)**   | Inserts _value_ to front of list |
@@ -45,17 +50,17 @@ Data structures in JavaScript.<br>
 | **.getSize()**   | Gets the size|
 
 # Linked List
-## Types
+### Types
 * Singly Linked List
 * Doubly Linked List
 * Circular Singly Linked List
-## Initialization
+### Initialization
 ```javascript
   let list = new SinglyLinkedList([0,1,2]);
   let list = new DoublyLinkedList([0,1,2]);
   let list = new CircularSinglyLinkedList([0,1,2]);
 ```
-## Operations
+### Operations
 | Method    | Description      |
 | -------- | --------------|
 | **.append(value)**   | Inserts _value_ to back of list |
