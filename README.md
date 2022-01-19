@@ -6,7 +6,7 @@
   </p>
 </div>
 
-# Stack
+## Stack
 ### Initialization
 ```javascript
   let list = new Stack([0,1,2]);
@@ -20,7 +20,7 @@
 | **.print()**   | Prints entire list |
 | **.getSize**   | Returns size of entire list|
 
-# Queue
+## Queue
 ### Initialization
 ```javascript
   let list = new Queue([0,1,2]);
@@ -34,7 +34,7 @@
 | **.print()**   | Prints entire list |
 | **.getSize**   | Returns size of entire list|
 
-# Hashtable
+## Hashtable
 ## Initialization
 ```javascript
   let size = 3;
@@ -49,7 +49,7 @@
 | **.print()**   | Prints the entire hash table |
 | **.getSize()**   | Gets the size|
 
-# Linked List
+## Linked List
 ### Types
 * Singly Linked List
 * Doubly Linked List
@@ -71,14 +71,14 @@
 | **.getSize**   | Returns size of the entire list|
 
 <!--
-# Binary Search Tree
-## Types
+## Binary Search Tree
+### Types
 * Binary Search Tree
-## Initialization
+### Initialization
 ```javascript
   let list = new BinarySearchTree();
 ```
-## Operations
+### Operations
 | Method    | Description      |
 | -------- | --------------|
 | **.insert(value)**   | Inserts _value_ to tree |
