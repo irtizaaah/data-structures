@@ -1,10 +1,5 @@
-<br />
-<div align="center">
-  <h3 align="center">Data Structures</h3>
-  <p align="center">
-    Data Structures built in JavaScript
-  </p>
-</div>
+# Data Structures
+Data Structures built in JavaScript
 
 ## Stack
 ### Initialization
